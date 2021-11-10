@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  background: rgb(77, 86, 126);
+}
+
+fieldset {
+  margin-top: 25px;
+  display: flex;
+  border: 2px solid;
+  border-radius: 1%;
+  background: rgba(18, 8, 112, 0.596);
+
+  height: 100%;
+  width: 100%;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.textInput {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+
+.checker{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: rgba(17, 172, 17, 0.808);
+  color: whitesmoke;
+  border-radius: 2px;
+}
+
+button{
+    margin-top: 10px;
+    border: none;
+}
+
+.radios{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.roles{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
